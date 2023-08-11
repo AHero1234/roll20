@@ -1,0 +1,867 @@
+[
+	{
+		"type": "section",
+		"entries": [
+			{
+				"type": "inset",
+				"page": 58,
+				"entries": [
+					{
+						"type": "section",
+						"name": "Living Keep - Battlements",
+						"entries": [
+							"{@b Hit Points} 192 ({@dice 11d20 + 77})",
+							"{@b Initiative} 20",
+							"{@b Speed} 5 ft.",
+							{
+								"type": "entries",
+								"name": "Traits",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "entries",
+												"name": "Bastion of Sight",
+												"entries": [
+													"Effects that would attempt to influence the keep's sight (such as blinding or making eye contact with it) can only affect this section (all other sections are immune). If this section is {@condition blinded}, all other sections are as well."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Position",
+												"entries": [
+													"The battlements of the keep are at least 40 ft. above the space it occupies. The section is approximately a 100 ft. by 100 ft. square."
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Actions",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "entries",
+												"name": "Catapult Volley (Recharge {@dice 1d6|5-6})",
+												"entries": [
+													"The battlements launch three massive boulders at up to three spaces within 500 ft., no two of which can share the same area. Creatures and Objects in the affected area must succeed on a DC 19 Dexterity saving throw or take 45 ({@dice 10d8}) bludgeoning damage and be knocked {@condition prone}. A successful saving throw halves this damage and be knocked {@condition prone}. A successful saving throw halves this damage and prevents the {@condition prone} condition. Objects not being worn or carried, and structures take double damage from this effect."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Focus Energy",
+												"entries": [
+													"The Battlement's turn ends, and the Halls section immediately takes a turn."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Hail of Arrows",
+												"entries": [
+													"{@atk rw} {@hit 11} to hit, 150 ft./600 ft., any number of targets within range. {@h}10 ({@dice 1d8 + 6}) piercing damage."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Spotlight",
+												"entries": [
+													"The battlements emit a beam of bright light 15 ft. wide and 500 ft. long for 1 minute. Creatures within the beam cannot be {@condition invisible} and have their vision reduced to 5 ft. If a creature inside the area of the beam attempts to move out of it, the keep can choose to follow its movement with the beam, keeping the creature within the area if the creature remains with 500 ft. of the keep."
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "inset",
+				"page": 59,
+				"entries": [
+					{
+						"type": "section",
+						"name": "Living Keep - Halls",
+						"entries": [
+							"{@b Hit Points} 315 ({@dice 18d20 + 126})",
+							"{@b Initiative} 15",
+							{
+								"type": "entries",
+								"name": "Traits",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "entries",
+												"name": "No Way In/Out",
+												"entries": [
+													"Creatures and objects other than the keep's appendages cannot enter the Hall's space unless they pass through a hole in its structure. Anything within the Hall's space has total cover against everything outside the space."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Position",
+												"entries": [
+													"The halls of the keep are directly above the space it occupies. The section is a 100 ft. by 100 ft. cube approximately 40 ft. tall."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Regeneration",
+												"entries": [
+													"At the start of each of the hall's turns, it regains 30 hit points. This effect ends when the keep is slain."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Stalking Walls (1/turn)",
+												"entries": [
+													"When the halls deal damage to a creature, it may deal an additional 28 ({@dice 8d6}) damage."
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Actions",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "entries",
+												"name": "Crushing Walls (1/Short or Long Rest)",
+												"entries": [
+													"The walls of the halls crash together in a 30 ft. cube within the hall's space. Creatures within the area must attempt a DC 19 Dexterity saving throw, moving the edge of the area on a success. On a failure, a creatures takes 33 ({@dice 6d10}) bludgeoning damage and are knocked {@condition unconscious} until the start of its next turn."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Fire Arrow Trap",
+												"entries": [
+													"{@atk rw} {@hit 11} to hit, range 30 ft./60 ft., one target. {@h}17 ({@dice 2d8 + 6}) piercing and 11 ({@dice 2d8}) fire."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Spike Trap",
+												"entries": [
+													"{@atk mw} {@hit 11} to hit, reach 0 ft., each creature in a 10 ft. square on the floor of the halls. {@h}17 ({@dice 2d10 + 6}) piercing damage."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Toxic Gas",
+												"entries": [
+													"The 30 ft. cube section of the Halls are flooded with toxic gas for 1 hour. When a creature enters the area of the first time on a turn or starts its turn there, it must attempt a DC 19 Constitution saving throw, taking 26 ({@dice 4d12}) poison damage on a failed saving throw, or half as much on a success."
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "inset",
+				"page": 60,
+				"entries": [
+					{
+						"type": "section",
+						"name": "Living Keep - Core",
+						"entries": [
+							"{@b Hit Points} 210 ({@dice 12d20 + 84})",
+							"{@b Initiative} 10",
+							{
+								"type": "entries",
+								"name": "Traits",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "entries",
+												"name": "Bastion of the Mind",
+												"entries": [
+													"Effects that would attempt to influence the keep's mind (such as psychic damage, the {@condition stunned} and {@condition unconscious} conditions, or effects that force an Intelligence, Wisdom, or Charisma saving throw) can only affect this section (all other sections are immune). If this section is {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition incapacitated}, {@condition stunned}, or {@condition unconscious}, all the other sections are as well."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Hidden",
+												"entries": [
+													"The core is magically hidden within the body of the keep and cannot be found without great effort. Creatures wishing to locate the core must search through the keep's Halls section. At the end of each of its turns, a creature within the Hall's section may attempt a DC 19 Intelligence ({@skill Investigation}) ability check, coming closer to deducing the Core's exact location on a success. Once a creature (or group of creatures thast are sharing the results of their efforts) have succeed on three checks made in this manner, the location of the core and the shortest path to it is revealed. Any attempt to locate the core in a manner other than this method automatically fails, unless the attempt comes from an affect of a spell of 8th level or higher. At its discretion, the keep can also allow a creature to find its core."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "No Way In/Out",
+												"entries": [
+													"Creatures and objects other than the keep's appendages cannot enter the Core's space unless they pass through a hole in its structure. Anything within the Core's space has total cover against everything outside the space."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Position",
+												"entries": [
+													"The Core section is a 25 ft. cube in the shape of a throne room. The core of the keep is located somewhere within the Hall's section. The keep can change the location of this section to somewhere within the Halls section whenever it finishes a long rest."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Vulnerability",
+												"entries": [
+													"When this section is reduced to zero hit points, the keep is slain. Additionally, this section takes double damage from all sources."
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Actions",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "entries",
+												"name": "Multiattack",
+												"entries": [
+													"The core makes two carpet tongue attacks."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Carpet Tongue",
+												"entries": [
+													"{@atk mw} {@hit 11} to hit, reach 25 ft., one target. {@h}19 ({@dice 2d12 + 6}) bludgeoning and 14 ({@dice 4d6}) acid."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Donate Life",
+												"entries": [
+													"The core can choose to lose up to 50 hit points and divide them amongst the other sections of its choice."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Focus Energy",
+												"entries": [
+													"The Core's turn ends, and the Halls section immediately takes a turn."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Guards!",
+												"entries": [
+													"The core magically teleports up to six {@creature animated armor|MM|animated armors} it has created to unoccupied spaces within 10 ft. of it."
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"Slow as a snail and massive in size, a living keep is a magical mimic that takes on the guise of a haunted castle. Crawling across the landscape in the dead of night, a living keep positions itself on the edges of civilization, piquing the interests of adventurers, barons, and explorers looking to make a name for themselves. Each keep is unique in its design, chosen by the mimic to best integrate with the surrounding culture. Within its \"halls\" are bizarre organs that appear as traps, animated suits of armor to assault intruders, and a confusing maze of corridors. Living keeps are extraordinary deceptive, able to disguise the origin of every action and assault it commits. Most of their victims have succumbed without ever realizing what was truly responsible.",
+			{
+				"type": "insetReadaloud",
+				"name": "The Living Keep",
+				"page": 57,
+				"entries": [
+					{
+						"type": "quote",
+						"entries": [
+							"Every time I think I've seen it all, this world gets more determined to prove me wrong. My latest shocking experience was when I witnessed an entire fortress crawl across an open field in the dead of night. I quickly identified it as a member of the behemoth mimic family which had somehow acquired magical powers. This creature defies logical explanation. How does it know what kind of traps to mimic to fool adventurers? Why is its haunted castle disguise better than most actual haunted castles? I doubt an expert cast of bard actors could pull off a more convincing ruse than these \"living keeps\", who fool veteran adventurers and wet behind the ears neophytes with startling ease."
+						],
+						"by": "Talien Vos Karven"
+					},
+					"{@b Classification:} Lurker",
+					"{@b Favors:} Clerics, Insight (High), Rangers, Teleportation, Wizards",
+					"{@b Foils:} Mobility (High), Range, Rogues, Sorcerers, Warlocks"
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Lore",
+				"page": 57,
+				"entries": [
+					"A character can learn the following information about a living keep with an Intelligence ({@skill Nature}) or Wisdom ({@skill Survival}) ability check.",
+					{
+						"type": "table",
+						"caption": "Living Keep Lore",
+						"colLabels": [
+							"DC",
+							"Information"
+						],
+						"colStyles": [
+							"col-1 text-center",
+							"col-11"
+						],
+						"rows": [
+							[
+								"17",
+								"A living keep is almost impossible to recognize from the outside. Every action it takes is cunningly disguised to appear as though something else were responsible. Only careful investigation and attention to detail can confirm the presence of a living keep."
+							],
+							[
+								"21",
+								"A living keep can only be slain if its Core is destroyed. Unfortunately, each keep conceals its Core deep within its structure. Its attacks take the form of common traps and hazards typically found in a dungeon."
+							],
+							[
+								"25",
+								"Living keeps are garrisoned by a small army of {@creature animated armor|MM|animated armors}, who can appear almost from thin air. A keep requires time to take down its prey and will attempt to keep intruders distracted by its many \"traps\" and guards. Don't be fooled by this tactic and make for the Core as swiftly as possible."
+							]
+						]
+					}
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Tactics",
+				"page": 57,
+				"entries": [
+					"A living keep cannot be killed unless creatures venture inside and dispatch the core; frame combat strategy around this fact. Because it is resistant to all bludgeoning, piercing, and slashing damage, a living keep is very difficult to dismantle from the outside. Those that attempt to do so must contend with the deadly Battlements section. The keep only resorts to fighting in this manner if enemies refuse to enter its body, as it's a lot of work to chase down prey when you move only 5 ft. a round. If the keep can maintain its disguise when prey enters its body, it will provide minor distractions in the form of {@creature animated armor|MM|animated armors}, unleshing its \"trap\" style attacks intermittently. If all goes well, intruders should feel like they have entered a haunted castle rather than a living creature. Only if its prey attempts to leave will the mimic reveal its true nature and attack in full force. Note that even when attacking ferociously, the keep's Subtle Presence feature can prevent unobservant PCs from realizing what is happening.",
+					"{@b Easier Tactics} - As soon as the PCs enter the keep, roll initiative. The keep will have it's {@creature animated armor|MM|animated armors} patrol its Hall's section, never operating in groups greater than four. It will attempt to bait the PCs by revealing its Core location, with a dozen or so {@creature animated armor|MM|animated armors} waiting in ambush as soon as the first PC steps through the door.",
+					"{@b Harder Tactics} - Force the PCs to explore the keep's layout. As soon as one character leaves the sightline of the other, hit it with an attack from the Hall's section, giving the keep surprise. This will only allow the character that experienced the effect to roll against the keep's Subtle Presence feature, rather than the whole party. Once the PCs are deep within the keep's structure, unleash hell. Use Crushing Walls, hordes of {@creature animated armor|MM|animated armors}, and merciless targeted attacks to down weak PCs and prevent escape. Don't roll initiative until the PCs discover the keep is a creature or are attacking {@creature animated armor|MM|animated armors}."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Plot Hooks",
+				"page": 59,
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Treachery At The Castle Upon A Mountain",
+								"entries": [
+									"The mayor of a large city has renovated a large castle atop a mountain just outside of town, with the intention of hosting a grand gala for his political rivals as a peace offering. In reality, the castle is a slumbering living keep, and the gala is an elaborate trap to assassinate all of the mayor's enemies in one fell swoop. Naturally, the PCs receive an invitation."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "The House Of Silence",
+								"entries": [
+									"A powerful {@creature death knight|MM} commands a living keep as a mobile fortress, with a legion of undead housed within. THe undead are unpalatable to the mimic, and the {@creature death knight|MM} provies a steady stream of humanoids in return for the keep's services."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "It Belongs In A Museum",
+								"entries": [
+									"A powerful artifact lost to time is believed to be housed within an ancient behemoth mimic hibernating atop a snowy peak. Archeologists plan to mount an expedition but need some decent muscle in case the behemoth mimic awakens from its starvation-induced slumber."
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Treasure",
+				"page": 59,
+				"entries": [
+					"Living keeps need a fair amount of wealth to maintain their disguise, collecting a hoard of treasure over their near-infinite lifespans. This treasure is placed strategically throughout its structure, with hopes of luring explorers deeper into the mimic's maze of hallways and corridors. One room may be a banquet hall glistening with jeweled cutlery, while another an armory filled with mithril weaponry. In addition to this treasure, a living keep's core generates an extraordinary gem for reasons yet unknown. Known as a crownstone, these gems are nearly a foot in diameter and are deep, blood red, smoldering with a fiery light. They are prized by royalty for their capacity to be carved into elaborate jewelry made of solid gemstone and are typically auctioned for over 100,000 gp a gem."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Ecology",
+				"page": 59,
+				"entries": [
+					"Living keeps are far too conspicuous for civilized society. Unless it feeds on at least a dozen humanoids a year, it will quickly starve, entering a period of hibernation until food becomes available. Living keeps can remain in this state for centuries before succumbing and take at least a month to fully awaken. In the meantime, communities may form around its structure, providing the keep with a reliable source of food. All it takes is a handful of curious adventurers exploring the local abandoned castle to stir its slumber. Once active, a living keep is a cunning, patient predator. It will often allow survivors expeditions to escape, returning to tell stories of haunted corridors and wonderous treasures. If its true nature is revealed to the world at large, the keep flees the locale in the dead of night, trundling across the landscape. During this time, it will reshape into a new form, adapting its architecture to reflect the first culture it comes across. Undead and other inedible creatures may find a welcome home within a living keep, just as long as they don't blow its cover or take its food."
+				]
+			}
+		]
+	},
+	{
+		"type": "section",
+		"name": "Behemoth Mimics",
+		"page": 53,
+		"entries": [
+			"The humble {@creature mimic|MM} has been menacing adventurers for as long as chests have been known to contain loot. It should come as no surprise that with its poorly understood origins and even more mysterious biology, the {@creature mimic|MM} familiar to so many adventurers was just the larval stage of a bizarre life cycle. As {@creature mimic|MM|mimics} eat, they increase their mass until they have reached the limits of their environment. The largest of these {@creature mimic|MM|mimics} undergo a metamorphosis, permanently assuming the general shape of large objects and structures. These \"behemoth mimics\" are highly specialized hunters that are adapted to specific environments. Different strains of behemoth mimics specialize in specific shapes. Their size is tremendous, able to give an almost flawless impression of a castle, tower, or even seafaring ship. Like a pitcher plant adapted to feed on humanoids, behemoth mimics can lure huge numbers of witless adventurers to their deaths.",
+			{
+				"type": "inset",
+				"name": "Talien's Notes",
+				"page": 54,
+				"entries": [
+					"What extraordinary creatures! My heart has always had a fondness for the {@creature mimic|MM} and its brilliant adaptation. The \"mimic test\" has proven to be an exceptional measure of whether one is cut out for the adventuring lifestyle. Much like their lesser brethren, I suspect behemoth mimics are responsible for a great many dungeon delving careers getting cut short. I can hardly fault the {@creature mimic|MM|mimics} for this. After all, it is we adventurers who dive head first into the dark corners of the world in search of glory and treasure. One doesn't fault the tiger for hunting the antelope - it is in its nature. Let the behemoth mimics be a lesson to those who are overconfident in their skills, a fitting punishment for the rampant insufferable arrogance within the adventuring community."
+				]
+			},
+			{
+				"type": "inset",
+				"name": "Behind The Curtain: Preparing Behemoth Mimic Encounters",
+				"page": 54,
+				"entries": [
+					"Each behemoth mimic is like a miniature dungeon. Due to their huge size and nature as a creature, object, and structure, running these encounters is no small task. One of the most exciting aspects of the behemoth mimics is their customizable nature. Each {@creature mimic|MM} possesses a trait that allows it to appear as an \"ordinary\" object or structure of a certain type, with specific sections included for the combat purposes. Beyond that, the layout and design of your behemoth mimic is something for you to create. You could make the interior of your mimic a dizzying maze, fill its section with loot, or even add minions that have made the mimic their home. A more detailed mimic makes the disguise more convincing to your players in the metagame, in addition to increasing the encounter's difficulty. Consider the merits of presenting your behemoth mimic in the form of a battle map to explore, rather than a creature to be fought (at least at first). The mark of a well-made behemoth mimic encounter is the moment of dawning comprehension from the players, as they begin to realize what exactly they have just walked their characters into."
+				]
+			}
+		]
+	}
+]
+[
+	{
+		"type": "section",
+		"entries": [
+			{
+				"type": "inset",
+				"page": 63,
+				"entries": [
+					{
+						"type": "section",
+						"name": "Living Mage Tower - Atrium",
+						"entries": [
+							"{@b Hit Points} 247 ({@dice 15d20 + 90})",
+							"{@b Initiative} 20",
+							"{@b Speed} 5 ft., climb 5 ft.",
+							{
+								"type": "entries",
+								"name": "Traits",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "entries",
+												"name": "Mystic Seal",
+												"entries": [
+													"The atrium of the tower conceals the entrance to the Winding Staircase section behind a magical seal that prevents any physical passage. Once the atrium has been reduced to zero hit points, the seal dissipates for 24 hours."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "No Way In/Out",
+												"entries": [
+													"Creatures and objects other than the tower's appendages cannot enter the Atrium's space unless they pass through a hole in its structure. Anything within the Atrium's space has total cover against everything outside the space."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Position",
+												"entries": [
+													"The atrium is positioned at the bottom of the tower. The section is a cube with a 30 ft. square base that is 15 ft. tall."
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Actions",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "entries",
+												"name": "Multicantrip",
+												"entries": [
+													"The atrium casts two cantrips."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Arcane Maw",
+												"entries": [
+													"{@atk ms} {@hit 14} to hit, reach 0 ft., one target. {@h}21 ({@dice 2d12 + 8}) force damage. If the target is a creature, it can expend a spell slot of 6th level or lower to deal an additional 6 ({@dice 1d12}) force damage per level of the spell slot expended."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Cast a spell",
+												"entries": [
+													"The atrium casts a spell of 3rd level or lower."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Focus Energy",
+												"entries": [
+													"The Atrium's turn ends, and another section immediately takes a turn."
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "inset",
+				"page": 63,
+				"entries": [
+					{
+						"type": "section",
+						"name": "Living Mage Tower - Winding Staircase",
+						"entries": [
+							"{@b Hit Points} 165 ({@dice 17d20 + 60})",
+							"{@b Initiative} 15",
+							{
+								"type": "entries",
+								"name": "Traits",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "entries",
+												"name": "Infinite Staircase",
+												"entries": [
+													"A creature that ascends to the top of the Winding Staircase section magically appears at the bottom of the staircase. This effect ends for 24 hours if no creatures in the staircase spend any movement for an entire round."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "No Way In/Out",
+												"entries": [
+													"Creatures and objects other than the tower's appendages cannot enter the staircases' space unless they pass through a hole in its structure. Anything within the staricases' space has total cover against everything outside the space."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Position",
+												"entries": [
+													"The staircase is 15 ft. above the space the tower occupies. The section is a 30 ft. square that is 165 ft. tall."
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Actions",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "entries",
+												"name": "Multiattack",
+												"entries": [
+													"The Staircase casts two cantrips or makes two tapestry tendril attacks."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Cast a spell",
+												"entries": [
+													"The Staircase casts a spell of 6th level or lower."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Focus Energy",
+												"entries": [
+													"The Staircases' turn ends, and another section immediately takes a turn."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Tapestry Tendril",
+												"entries": [
+													"{@atk ms} {@hit 14} to hit, reach 165 ft., one target. {@h}21 ({@dice 3d8 + 8}) slashing damage and the target is pulled 50 ft. up toward the top of the staircase."
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "inset",
+				"page": 63,
+				"entries": [
+					{
+						"type": "section",
+						"name": "Living Mage Tower - Core",
+						"entries": [
+							"{@b Hit Points} 279 ({@dice 18d20 + 108})",
+							"{@b Initiative} 10",
+							{
+								"type": "entries",
+								"name": "Traits",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "entries",
+												"name": "Bastion of the Mind",
+												"entries": [
+													"Effects that would attempt to influence the tower's mind (such as psychic damage, the {@condition stunned} and {@condition unconscious} conditions, or effects that force an Intelligence, Wisdom, or Charisma saving throw) can only affect this section (all other sections are immune). If this section is {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition incapacitated}, {@condition stunned}, or {@condition unconscious}, all the other sections are as well."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "No Way In/Out",
+												"entries": [
+													"Creatures and objects other than the tower's appendages cannot enter the Core's space unless they pass through a hole in its structure. Anything within the Core's space has total cover against everything outside the space."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Position",
+												"entries": [
+													"The Core section is a 30 ft. square that is 20 ft. high. The core of the tower is at least 180 ft. above the space the tower occupies."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Vulnerability",
+												"entries": [
+													"When this section is reduced to zero hit points, the tower is slain. Additionally, this section takes double damage from all sources inside of its space."
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Actions",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "entries",
+												"name": "Multicantrip",
+												"entries": [
+													"The core casts three cantrips."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Cast a spell",
+												"entries": [
+													"The core casts a spell of 9th level or lower."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Focus Energy",
+												"entries": [
+													"The core's turn ends, and another section immediately takes a turn."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Recover Magic (Recharge {@dice 1d6|5-6})",
+												"entries": [
+													"The core recovers expended spell slots of combined level less than or equal to nine."
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"The bizarre product of a {@creature mimic|MM} consuming the spellbook of an archmage, the living mage tower is a mighty magical creature with a fearsome arsenal of spells. Taking the disguise of a magical tower, these mimics are extremely intelligent, much to the detriment of their favorite prey: humanoids. On the inside a living mage tower is a strange mix of magic, monster, and building. Its body parts are shielded by mighty spell wards while strange arcane phenomena prevent access to its upper levels. The mimic even speaks, pretending to be a mad wizard slinging spells from the tower's loft and antagonizing arrogant adventurers with stinging insults to their intelligence.",
+			{
+				"type": "entries",
+				"name": "Lore",
+				"page": 60,
+				"entries": [
+					"A character can learn the following information about a living mage tower with an Intelligence ({@skill Arcana}) or Wisdom ({@skill Survival}) ability check.",
+					{
+						"type": "table",
+						"caption": "Beast of Legend Lore",
+						"colLabels": [
+							"DC",
+							"Information"
+						],
+						"colStyles": [
+							"col-1 text-center",
+							"col-11"
+						],
+						"rows": [
+							[
+								"18",
+								"Living mage towers are powerfully magical and can cast spells. These mimics behave like typical mad wizards, making it almost impossible to verify its presence until you are inside it."
+							],
+							[
+								"24",
+								"With a huge array of spells at its disposal and a formidable intelligence, a living mage tower can overwhelm its prey while they are still trying to figure out what is happening. It can produce spells from any part of its body, but the most fearsome ones come from its core, found at the top of the tower."
+							],
+							[
+								"28",
+								"A living mage tower is a paragon of magical combat. If you are thinking of blowing it up from long range, don't. Pretending to fall for its ruse will force the mimic to hold back until you are close, preventing it from using its most powerful spells."
+							]
+						]
+					}
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Tactics",
+				"page": 60,
+				"entries": [
+					"Take note of the tower's impressive spell list. There are some real heavy hitters there, including {@spell meteor swarm}, {@spell prismatic wall}, {@spell feeblemind}, {@spell maze}, {@spell forcecage}, {@spell mass suggestion}, and {@spell polymorph}. Chances are if the mimic wanted to kill the PCs long before they got close, it could (the range on {@spell meteor swarm} is 1 mile). With its ability to cast three spells in a round between all its sections, the tower can lay down an impressive amount of hurt in a very short period. Refrain from spamming these powerhouse spells back to back, as the mimic wants its prey to get close. The mimic should pretend to be an ornery wizard, screaming insulting obscenities at the PCs and hurling low impact spells to draw them in. Once the PCs have entered the Atrium or Winding Staircase, unleash the more potent effects, damaging the mimic in the process if necessary.",
+					"{@b Easier Tactics} - Avoid preparing the tower with spells like {@spell guards and wards} and {@spell symbol}. Use more subtle magical effects such as {@spell hallucinatory terrain} and {@spell phantasmal force} to disorient and confuse, rather than outright kill. Play up the craziness of the supposed \"mad wizard\" lurking within, with irrational decisions and suboptimal maneuvers by the tower.",
+					"{@b Harder Tactics} - As soon as the PCs get within 500 ft. of the tower (within range of its Magical Defenses feature) open fire. The mimic should have powerful spells set up in advance of the encounter and use effects like {@spell mass suggestion} to compel the party into making poor decisions. The tower has more than enough spell slots for almost any strategy, so don't be stingy."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Plot Hooks",
+				"page": 61,
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Wanted: Wizard's Apprentice, No Experience Necessary",
+								"entries": [
+									"A magical tower has appeared in the town square overnight. Its resident, the High Magus of the Very Big Deal Arcanum Society has promised to make an apprentice out of the first one to climb to the top of the tower. While the common folk are easily fooled by this ruse, the shrewder members of the town are skeptical."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "The Doom Tower",
+								"entries": [
+									"A living mage tower has been mounted on tracks and is being utilized as a magical weapon of war. Known as the Doom Tower, the mimic has proven to be a nigh unstoppable force on the battlefield, but with no loyalty beyond its next meal."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "The Upside-Down Spire",
+								"entries": [
+									"Deep beneath the earth is the legendary home of a dread necromancer. Said to be suspended from the ceiling in a great cavern, the spire is sought by all manner of evil spellcasters looking to master forbidden arts. In response, a good deity has promised its blessing to whomever can destroy the spire and rid the world of one more evil. Little does everyone realize the spire is a cunning trap left by the necromancer before he died; a living mage tower."
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Treasure",
+				"page": 61,
+				"entries": [
+					"The power of a living mage tower allows it to collect an impressive number of valuables. To better facilitate its disguise, the tower will collect things wizards love: books, chemistry sets, beard grooming kits, etc. These mimics often choose to imitate famous wizards in cultural history, and in some instances may possess artifacts from those same wizards. A typical living mage tower will possess at least one of the following items; {@item staff of power|DMG}, {@item robe of the archmagi|DMG}, {@item Ioun stone, mastery|DMG}, {@item ring of spell turning|DMG}, or a {@item manual of iron golems|DMG}. Additionally, there is typically a selection of {@item spell scroll|DMG|spell scrolls}, with a combined level no higher than 30.",
+					"Additionally, if a {@item staff of the magi|DMG} is within the core of the living mage tower when it is slain, the magic of the creature is transferred to the staff, granting it the following benefits (in additional to its normal properties).",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Artifact Power",
+								"entries": [
+									"The staff becomes an artifact, and gains one {@table Artifact Properties; Major Beneficial Properties|DMG|major beneficial property}, two {@table Artifact Properties; Minor Beneficial Properties|DMG|minor beneficial properties}, and one {@table Artifact Properties; Major Detrimental Properties|DMG|major detrimental property} (rolled randomly, at the DM's discretion, or of the DM's design)."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Critical Blast",
+								"entries": [
+									"While you hold the staff, your spell attacks score a critical hit on an attack roll of 19 or 20."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Mighty Magic",
+								"entries": [
+									"While you are attuned to the staff you gain a 10th level spell slot, which is considered a class spell slot for you. This slot can only be used to cast spells at higher levels. If this slot is expended, you regain it whenever you finish a long rest."
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Ecology",
+				"page": 61,
+				"entries": [
+					"Because of their {@spell teleport} spell, living mage towers can be found anywhere there are humanoids. They rarely stay still for long, lingering just long enough to feed before moving on to more unsuspecting locales. The creatures seem drawn to areas of magical activity, and when given the choice always prefer spellcasters as a meal. When not on the hunt, living mage towers are surprisingly communicative. They will happily hold conversation with other creatures, so long as doing so does not reveal its true nature. They are shockingly ignorant about magic, especially when considering their abilities. To a living mage tower, its spellcasting is pure instinct, and a minor curiosity at best. The mimics prefer information about the cultures and lore of humanoids, using a {@spell find familiar|PHB|familiar} as a scout to gather information. Because of their unique magical defenses and easily bought loyalty, living mage towers are sought by warlords and powerful spell casters as weapons and lairs.",
+					{
+						"type": "insetReadaloud",
+						"name": "The Living Mage Tower",
+						"page": 61,
+						"entries": [
+							{
+								"type": "quote",
+								"entries": [
+									"I asked Archmagister King why wizards have such an obsession with towers. His answer of \"isn't it obvious?\" was maddeningly unhelpful. Whatever the reason, these mimics seem to understand the minds of wizards, for their disguise is by far the most convincing of the behemoth strain. The magic at these creature's disposal is formidable. Each possesses enough firepower to level a small city, let alone a party of intrepid adventurers. They are also far more mobile than their lesser counterparts, teleporting vast distances in an instance in search of gullible prey. Everything about these creatures screams overkill to me. Their strength far outclasses their need to feed on a dozen or so humanoids a year. Theory: the mimic either enjoys inflicting suffering (unlikely) or can only receive meaningful sustenance from powerful \"food\"."
+								],
+								"by": "Talien Vos Karven"
+							},
+							"{@b Classification:} Artillery",
+							"{@b Favors:} Antimagic, Bards, Insight (High), Sorcerers, Wizards",
+							"{@b Foils:} Barbarians, Fighters, Paladins, Range, Rangers"
+						]
+					}
+				]
+			},
+			{
+				"type": "inset",
+				"name": "Talien's Notes",
+				"page": 54,
+				"entries": [
+					"What extraordinary creatures! My heart has always had a fondness for the {@creature mimic|MM} and its brilliant adaptation. The \"mimic test\" has proven to be an exceptional measure of whether one is cut out for the adventuring lifestyle. Much like their lesser brethren, I suspect behemoth mimics are responsible for a great many dungeon delving careers getting cut short. I can hardly fault the {@creature mimic|MM|mimics} for this. After all, it is we adventurers who dive head first into the dark corners of the world in search of glory and treasure. One doesn't fault the tiger for hunting the antelope - it is in its nature. Let the behemoth mimics be a lesson to those who are overconfident in their skills, a fitting punishment for the rampant insufferable arrogance within the adventuring community."
+				]
+			},
+			{
+				"type": "inset",
+				"name": "Behind The Curtain: Preparing Behemoth Mimic Encounters",
+				"page": 54,
+				"entries": [
+					"Each behemoth mimic is like a miniature dungeon. Due to their huge size and nature as a creature, object, and structure, running these encounters is no small task. One of the most exciting aspects of the behemoth mimics is their customizable nature. Each {@creature mimic|MM} possesses a trait that allows it to appear as an \"ordinary\" object or structure of a certain type, with specific sections included for the combat purposes. Beyond that, the layout and design of your behemoth mimic is something for you to create. You could make the interior of your mimic a dizzying maze, fill its section with loot, or even add minions that have made the mimic their home. A more detailed mimic makes the disguise more convincing to your players in the metagame, in addition to increasing the encounter's difficulty. Consider the merits of presenting your behemoth mimic in the form of a battle map to explore, rather than a creature to be fought (at least at first). The mark of a well-made behemoth mimic encounter is the moment of dawning comprehension from the players, as they begin to realize what exactly they have just walked their characters into."
+				]
+			}
+		]
+	},
+	{
+		"type": "section",
+		"name": "Behemoth Mimics",
+		"page": 53,
+		"entries": [
+			"The humble {@creature mimic|MM} has been menacing adventurers for as long as chests have been known to contain loot. It should come as no surprise that with its poorly understood origins and even more mysterious biology, the {@creature mimic|MM} familiar to so many adventurers was just the larval stage of a bizarre life cycle. As {@creature mimic|MM|mimics} eat, they increase their mass until they have reached the limits of their environment. The largest of these {@creature mimic|MM|mimics} undergo a metamorphosis, permanently assuming the general shape of large objects and structures. These \"behemoth mimics\" are highly specialized hunters that are adapted to specific environments. Different strains of behemoth mimics specialize in specific shapes. Their size is tremendous, able to give an almost flawless impression of a castle, tower, or even seafaring ship. Like a pitcher plant adapted to feed on humanoids, behemoth mimics can lure huge numbers of witless adventurers to their deaths.",
+			{
+				"type": "inset",
+				"name": "Talien's Notes",
+				"page": 54,
+				"entries": [
+					"What extraordinary creatures! My heart has always had a fondness for the {@creature mimic|MM} and its brilliant adaptation. The \"mimic test\" has proven to be an exceptional measure of whether one is cut out for the adventuring lifestyle. Much like their lesser brethren, I suspect behemoth mimics are responsible for a great many dungeon delving careers getting cut short. I can hardly fault the {@creature mimic|MM|mimics} for this. After all, it is we adventurers who dive head first into the dark corners of the world in search of glory and treasure. One doesn't fault the tiger for hunting the antelope - it is in its nature. Let the behemoth mimics be a lesson to those who are overconfident in their skills, a fitting punishment for the rampant insufferable arrogance within the adventuring community."
+				]
+			},
+			{
+				"type": "inset",
+				"name": "Behind The Curtain: Preparing Behemoth Mimic Encounters",
+				"page": 54,
+				"entries": [
+					"Each behemoth mimic is like a miniature dungeon. Due to their huge size and nature as a creature, object, and structure, running these encounters is no small task. One of the most exciting aspects of the behemoth mimics is their customizable nature. Each {@creature mimic|MM} possesses a trait that allows it to appear as an \"ordinary\" object or structure of a certain type, with specific sections included for the combat purposes. Beyond that, the layout and design of your behemoth mimic is something for you to create. You could make the interior of your mimic a dizzying maze, fill its section with loot, or even add minions that have made the mimic their home. A more detailed mimic makes the disguise more convincing to your players in the metagame, in addition to increasing the encounter's difficulty. Consider the merits of presenting your behemoth mimic in the form of a battle map to explore, rather than a creature to be fought (at least at first). The mark of a well-made behemoth mimic encounter is the moment of dawning comprehension from the players, as they begin to realize what exactly they have just walked their characters into."
+				]
+			}
+		]
+	}
+]
